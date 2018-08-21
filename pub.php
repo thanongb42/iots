@@ -1,8 +1,8 @@
  <?php
  function pubMqtt($topic,$msg){
        $APPID= "TorSmartHome/"; //enter your appid
-     $KEY = "41eH4Sug8ZUk7Ql"; //enter your key
-    $SECRET = "CRqQt0YrnnYhurqwpU9y2hNGi"; //enter your secret
+     $KEY = "I5GCR7axaWIRjQB"; //enter your key
+    $SECRET = "JpY9XI1FAYvvnhD52LVcbSwSz"; //enter your secret
     $Topic = "$topic"; 
       put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
  
