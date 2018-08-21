@@ -1,6 +1,6 @@
  <?php
  function pubMqtt($topic,$msg){
-       $APPID= "DhmDoFyy2fmqxbG:DQyHkO0ueJe11XNAMHT181IOu/"; //enter your appid
+       $APPID= "TorSmartHome/"; //enter your appid
      $KEY = "DhmDoFyy2fmqxbG"; //enter your key
     $SECRET = "DQyHkO0ueJe11XNAMHT181IOu"; //enter your secret
     $Topic = "$topic"; 
